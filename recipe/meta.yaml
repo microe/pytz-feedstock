@@ -1,4 +1,4 @@
-{% set version="2016.3" %}
+{% set version="2016.4" %}
 
 package:
   name: pytz
@@ -7,7 +7,7 @@ package:
 source:
   fn: pytz-{{ version }}.tar.bz2
   url: https://pypi.io/packages/source/p/pytz/pytz-{{ version }}.tar.bz2
-  md5: 5c1a1e8ac88cd63e1ad7bcd069fe3938
+  md5: e56283d61935963157aebc5135206a47
 
 build:
   number: 0
