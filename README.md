@@ -7,13 +7,25 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: World timezone definitions, modern and historical
+Summary: World timezone definitions, modern and historical.
 
 pytz brings the Olson tz database into Python. This library allows
 accurate and cross platform timezone calculations using Python 2.4 or
 higher. It also solves the issue of ambiguous times at the end of daylight
 saving time.
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytz-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytz-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytz-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytz-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytz-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytz-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytz/badges/version.svg)](https://anaconda.org/conda-forge/pytz)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytz/badges/downloads.svg)](https://anaconda.org/conda-forge/pytz)
 
 Installing pytz
 ===============
@@ -35,7 +47,6 @@ It is possible to list all of the versions of `pytz` available on your platform 
 ```
 conda search pytz --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -71,18 +82,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytz-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytz-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytz-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytz-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytz-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytz-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytz/badges/version.svg)](https://anaconda.org/conda-forge/pytz)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytz/badges/downloads.svg)](https://anaconda.org/conda-forge/pytz)
 
 
 Updating pytz-feedstock
